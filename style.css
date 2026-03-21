@@ -86,7 +86,7 @@ background:#334155;
 .navbar{
 position:fixed;
 top:0;
-width:100%;
+width:95%;
 display:flex;
 justify-content:space-between;
 padding:15px 40px;
