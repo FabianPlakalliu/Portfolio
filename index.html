@@ -1,70 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<header class="hero">
-    <h1>Fabian Plakalliu</h1>
-    <p class="title">Junior Web Developer</p>
-    <p class="subtitle">WordPress • PHP • JavaScript</p>
-
-    <a href="#projects" class="btn">View My Projects</a>
-</header>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fabian Plakalliu | Web Developer</title>
+<link rel="stylesheet" href="style.css">
+</head>
 
 <body>
-
-
-<header class="hero">
-  <h1>Fabian Plakalliu</h1>
-  <p>Junior Web Developer</p>
-  <a href="#projects" class="btn">View My Work</a>
-</header>
-
-
-<nav>
-<a href="#about">About</a>
-<a href="#projects">Projects</a>
-<a href="#contact">Contact</a>
+    <nav class="navbar">
+  <h2>FP</h2>
+  <div>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </div>
 </nav>
 
-<section id="about">
-<h2>About Me</h2>
+<!-- HERO -->
+<section class="hero">
+  <h1>Fabian Plakalliu</h1>
+  <p>Web Developer | WordPress | PHP | JavaScript</p>
+  <div class="buttons">
+    <a href="#projects" class="btn">Projects</a>
+    <a href="#contact" class="btn secondary">Contact</a>
+  </div>
+</section>
 
-<p>
-I am a junior web developer based in Greece with strong experience in WordPress,
-PHP and JavaScript. I focus on building fast, modern and responsive websites.
-</p>
+<!-- ABOUT -->
+<section class="about fade-in">
+  <h2>About Me</h2>
+  <p>
+    I am a passionate Web Developer with experience in WordPress, PHP and JavaScript.
+    I build modern, responsive and high-performance websites.
+  </p>
+</section>
 
-<p>
-I am currently working as a WordPress developer while continuing to improve
-my skills in full-stack development.
-</p>
+<!-- PROJECTS -->
+<section id="projects" class="projects fade-in">
+  <h2>Projects</h2>
+
+  <div class="project-card">
+    <h3>Portfolio Website</h3>
+    <p>Personal portfolio built with HTML, CSS and JavaScript.</p>
+    <div class="project-links">
+      <a href="#">Live</a>
+      <a href="#">GitHub</a>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <h3>Task Manager App</h3>
+    <p>Full-stack app with PHP & MySQL.</p>
+    <div class="project-links">
+      <a href="#">Live</a>
+      <a href="#">GitHub</a>
+    </div>
+  </div>
 
 </section>
 
-<section id="projects">
-<h2>Projects</h2>
-
-<div class="project">
-<h3>Portfolio Website</h3>
-<p>Personal portfolio built using HTML, CSS and JavaScript.</p>
-</div>
-
-<div class="project">
-<h3>Task Manager App</h3>
-<p>Full-stack web application using PHP and MySQL.</p>
-</div>
-
-<div class="project">
-<h3>JavaScript Dashboard</h3>
-<p>Interactive dashboard using JavaScript and API data.</p>
-</div>
-
+<!-- CONTACT -->
+<section id="contact" class="contact fade-in">
+  <h2>Contact</h2>
+  <p>Email: fabianplakalliu@gmail.com</p>
 </section>
-
-<section id="contact">
-<h2>Contact</h2>
-<p>Email: fabianplakalliu@gmail.com</p>
-</section>
-
-<script src="script.js"></script>
 
 </body>
 </html>

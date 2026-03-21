@@ -82,3 +82,32 @@ transition:0.3s;
 transform:translateY(-5px);
 background:#334155;
 }
+
+.navbar{
+position:fixed;
+top:0;
+width:100%;
+display:flex;
+justify-content:space-between;
+padding:15px 40px;
+background:rgba(15,23,42,0.8);
+backdrop-filter:blur(10px);
+z-index:1000;
+}
+
+.navbar a{
+color:white;
+margin-left:20px;
+text-decoration:none;
+}
+
+.fade-in{
+opacity:0;
+transform:translateY(30px);
+transition:0.6s;
+}
+
+.fade-in.show{
+opacity:1;
+transform:translateY(0);
+}
