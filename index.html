@@ -1,71 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Fabian Plakalliu | Web Developer</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Fabian Plakalliu | Web Developer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <nav class="navbar">
-  <h2>FP</h2>
-  <div>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-  </div>
-</nav>
 
-<!-- HERO -->
-<section class="hero">
-  <h1>Fabian Plakalliu</h1>
-  <p>Web Developer | WordPress | PHP | JavaScript</p>
-  <div class="buttons">
-    <a href="#projects" class="btn">Projects</a>
-    <a href="#contact" class="btn secondary">Contact</a>
-  </div>
+<header class="navbar">
+  <h1>Fabian</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero fade-in">
+  <h2>Hi, I'm Fabian 👋</h2>
+  <p>Web Developer | WordPress Specialist</p>
 </section>
 
-<!-- ABOUT -->
-<section class="about fade-in">
+<section id="about" class="fade-in">
   <h2>About Me</h2>
   <p>
-    I am a passionate Web Developer with experience in WordPress, PHP and JavaScript.
-    I build modern, responsive and high-performance websites.
+    I am a Web Developer with a strong background in computer systems and software engineering.
+    Currently specializing in Multimedia and Web Development, while working professionally as a WordPress Developer.
+    <br><br>
+    I have hands-on experience building responsive websites, managing hosting environments, and optimizing performance.
   </p>
 </section>
 
-<!-- PROJECTS -->
-<section id="projects" class="projects fade-in">
+<section id="projects" class="fade-in">
   <h2>Projects</h2>
 
-  <div class="project-card">
-    <h3>Portfolio Website</h3>
-    <p>Personal portfolio built with HTML, CSS and JavaScript.</p>
-    <div class="project-links">
-    <img src="project1.jpg" alt="project">
-      <a href="https://fabianplakalliu.github.io/Portfolio/">Live</a>
-      <a href="https://github.com/FabianPlakalliu">GitHub</a>
-    </div>
-  </div>
+  <div class="projects-container">
 
-  <div class="project-card">
-    <h3>Task Manager App</h3>
-    <p>Full-stack app with PHP & MySQL.</p>
-    <div class="project-links">
-      <img src="project1.jpg" alt="project">  
-      <a href="#">Live</a>
-      <a href="https://github.com/FabianPlakalliu">GitHub</a>
+    <div class="project-card">
+      <img src="project1.jpg" alt="project">
+      <h3>Portfolio Website</h3>
+      <p>Responsive personal portfolio built with HTML, CSS, and JavaScript, featuring animations and clean UI design.</p>
+      <a href="https://github.com/FabianPlakalliu/Portfolio" target="_blank">GitHub</a>
     </div>
-  </div>
 
+    <div class="project-card">
+      <img src="project1.jpg" alt="project">
+      <h3>Task Manager App</h3>
+      <p>JavaScript-based task manager focused on DOM manipulation and user interaction.</p>
+      <a href="#" target="_blank">Live</a>
+    </div>
+
+  </div>
 </section>
 
-<!-- CONTACT -->
+<section id="skills" class="fade-in">
+  <h2>Skills</h2>
+
+  <div class="skills">
+    <p>HTML5</p>
+    <p>CSS3</p>
+    <p>JavaScript</p>
+    <p>PHP</p>
+    <p>WordPress</p>
+    <p>WooCommerce</p>
+    <p>Git & GitHub</p>
+    <p>MySQL</p>
+  </div>
+</section>
+
 <section id="contact" class="contact fade-in">
   <h2>Contact</h2>
   <p>Email: fabianplakalliu@gmail.com</p>
+  <p>Location: Thessaloniki, Greece</p>
 </section>
 
+<script src="script.js"></script>
 </body>
 </html>
